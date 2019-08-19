@@ -35,7 +35,7 @@ class Libewf < Formula
       --disable-dependency-tracking
       --disable-silent-rules
       --prefix=#{prefix}
-      --with-libfuse=no
+      --with-libfuse=yes
     ]
 
     system "./configure", *args
